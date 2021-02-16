@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recipe Catalog</title>
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+	<div class="main-wrap">
+		<div class="header-wrap">
+			<header>
+				<div class="nav-wrap">
+					<nav>
+						<a href="#">Home</a>
+						<a href="#">Recipes</a>
+						<a href="#">Profile</a>
+					</nav>
+				</div>
+				<div class="search-bar-wrap">
+					<input type="text" name="recipe-search" placeholder="Search Recipes" class="search input is-large">
+					<button class="search-btn button is-large">
+						<svg class="i-search" viewBox="0 0 32 32" width="64" height="64" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+				            <circle cx="14" cy="14" r="12" />
+				            <path d="M23 23 L30 30"  />
+				        </svg>
+					</button>
+				</div>
+			</header>
+		</div>
+
+		<div class="body-wrap columns mt0">
+			<div class="side-option-wrap column is-one-quarter"></div>
+			<div class="gallery-wrap column is-three-quarter"></div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+html {
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+html,
+body,
+.main-wrap {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	border: 1px solid black;
+}
+
+.main-wrap {
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.header-wrap {
+    background-color: lightblue;
+    height: 20%;
+    width: 100%;
+}
+
+header {
+	width: 100%;
+	height: 100%;
+    display: flex;
+}
+
+.nav-wrap {
+	width: 50%;
+	display: flex;
+	align-items: flex-end;
+}
+
+.search-bar-wrap {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.search {
+    width: 80%;
+    margin: 15px;
+}
+
+.i-search {
+    width: 32px;
+}
+
+.body-wrap {
+	background-color: lightgreen;
+}
+
+.side-option-wrap {
+    background-color: pink;
+    height: 100%;
+}
+
+.gallery-wrap {
+	background-color: lightgoldenrodyellow;
+	height: 100%;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tile {
+    min-height: 225px;
+    max-width: 250px;
+    margin: 15px;
+    background: purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-wrap {
+	height: 125px;
+	width: 250px;
+}
+
+img {
+	height: 100%;
+}
+
+.tile-title-wrap {
+	height: 50%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.mt0 {
+	margin-top: 0;
+}
