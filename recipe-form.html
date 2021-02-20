@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recipe Catalog Form</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+
+	<div class="main-wrap">
+		<div class="title">
+			<h1>New Recipe</h1>
+		</div>
+		<div class="form-wrap">
+			<form>
+				<div class="left">
+					<label for="title">Title:</label><br>
+	 				<input type="text" id="title" name="title"><br>
+
+	 				<label for="course">Course:</label><br>
+	 				<select class="select" name="course" id="course">
+	 					<option value="breakfast">Breakfast</option>
+	 					<option value="lunch">Lunch</option>
+	 					<option value="dinner">Dinner</option>
+	 					<option value="snack">Snack</option>
+	 					<option value="dessert">Dessert</option>
+	 				</select><br>
+
+	 				<label for="tags">Tags:</label><br>
+	 				<input type="text" id="tags" name="tags" placeholder="Vegetarian, Gluten Free..etc"><br>
+
+	 				<label for="source">Source:</label><br>
+	 				<input type="text" id="source" name="source" placeholder="Optional"><br>
+
+	 				<label for="servings">Serving Size:</label><br>
+	 				<input type="text" id="servings" name="servings"><br>
+
+	 				<div class="prep-cook-time-wrap">
+	 					<div class="time-input-wrap">
+		 					<div>
+		 						<label id="prep-time-label" for="prep-time">Preperation Time:</label><br>
+		 					</div>
+		 					<div class="time-item">
+		 						<div>
+			 						<label for="hrs">Hrs.</label><br>
+			 						<input type="text" name="hrs">
+			 					</div>
+			 					<div>
+			 						<label for="mins">Mins.</label><br>
+			 						<input type="text" name="mins">
+			 					</div>
+		 					</div>
+		 				</div>
+
+		 				<div class="time-input-wrap">
+		 					<div>
+		 						<label id="cook-time-label" for="hrs">Cooking Time:</label>
+		 					</div>
+		 					<div class="time-item">
+		 						<div>
+			 						<label for="hrs">Hrs.</label><br>
+			 						<input type="text" name="hrs">
+			 					</div>
+			 					<div>
+			 						<label for="mins">Mins.</label><br>
+			 						<input type="text" name="mins">
+			 					</div>
+		 					</div>
+		 				</div>
+	 				</div>
+	 				
+				</div>
+				
+
+ 				<div class="right">
+ 					<div class="my-textarea">
+ 						<label for="ingredients">Ingredients:</label><br>
+	 					<textarea id="ingredients" name="ingredients" rows="30" cols="50"></textarea><br>
+ 					</div>
+
+ 					<div class="my-textarea">
+ 						<label for="directions">Directions:</label><br>
+	 					<textarea id="directions" name="directions" rows="30" cols="50"></textarea><br>
+ 					</div>
+	 				
+	 				<div class="my-textarea">
+	 					<label for="notes">Notes:</label><br>
+	 					<textarea id="notes" name="notes" rows="15" cols="20"></textarea><br>
+	 				</div>
+	 				
+ 				</div>
+
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
