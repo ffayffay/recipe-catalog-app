@@ -1,6 +1,14 @@
 let recipes = [
 	{
-		title: 'Title',
+		title: 'Title a longer one',
+		img: 'https://via.placeholder.com/250x125.png',
+	},
+	{
+		title: 'Title a longer one',
+		img: 'https://via.placeholder.com/250x125.png',
+	},
+	{
+		title: 'Title  a longer one',
 		img: 'https://via.placeholder.com/250x125.png',
 	},
 	{
@@ -16,7 +24,11 @@ let recipes = [
 		img: 'https://via.placeholder.com/250x125.png',
 	},
 	{
-		title: 'Title',
+		title: 'Title  a longer one',
+		img: 'https://via.placeholder.com/250x125.png',
+	},
+	{
+		title: 'Title  a longer one',
 		img: 'https://via.placeholder.com/250x125.png',
 	},
 	{
@@ -24,30 +36,7 @@ let recipes = [
 		img: 'https://via.placeholder.com/250x125.png',
 	},
 	{
-		title: 'Title',
-		img: 'https://via.placeholder.com/250x125.png',
-	},
-	{
-		title: 'Title',
-		img: 'https://via.placeholder.com/250x125.png',
-	},
-	{
-		title: 'Title',
-		img: 'https://via.placeholder.com/250x125.png',
-	},
-	{
-		title: 'Title',
-		img: 'https://via.placeholder.com/250x125.png',
-	},
-	{
-		title: 'Title',
-		img: 'https://via.placeholder.com/250x125.png',
-	},
-	{
-		title: 'Title',
-		img: 'https://via.placeholder.com/250x125.png',
-	},{
-		title: 'Title',
+		title: 'Title  a longer one',
 		img: 'https://via.placeholder.com/250x125.png',
 	},
 	{
@@ -67,6 +56,17 @@ let recipes = [
 	},
 	{
 		title: 'Title',
+		img: 'https://via.placeholder.com/250x125.png',
+	},{
+		title: 'Title  a longer one',
+		img: 'https://via.placeholder.com/250x125.png',
+	},
+	{
+		title: 'Title  a longer one',
+		img: 'https://via.placeholder.com/250x125.png',
+	},
+	{
+		title: 'Title a longer one',
 		img: 'https://via.placeholder.com/250x125.png',
 	},
 ]
